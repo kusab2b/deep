@@ -1,0 +1,47 @@
+body {
+    background-color: #1f314f;
+height:100vh;
+margin: 0;
+}
+
+.comic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.optimal{
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.oval{
+    width: 288px;
+    height: 288px;
+    background-color: #1f314f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 15px;
+}
+.frtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.front{
+    width: 288px;
+    font-size: 22px;
+    color: #1f314f;
+    margin: 0;
+}
+.text{
+    width: 256px;
+    font-size: 15px;
+    color: #7d889e;
+}
+
